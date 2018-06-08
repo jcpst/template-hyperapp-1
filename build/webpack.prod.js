@@ -20,7 +20,7 @@ module.exports = merge(common, {
   },
   plugins: [
     new PurifyCSSPlugin({
-      paths: glob.sync(path.join(__dirname, 'src/**/*.js')),
+      paths: glob.sync(path.join(__dirname, '..', 'src/**/*.js')),
     })
   ]
 })
