@@ -1,17 +1,22 @@
 {
-  "name": "hyperapp-webpack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "template-hyperapp-1",
+  "version": "0.0.1",
+  "description": "A biolerplate for hacking away at hyperapp.",
   "scripts": {
     "build": "webpack --config ./build/webpack.prod.js",
     "format": "prettier --write --no-semi --single-quote \"{src,build}/**/*.js\"",
     "start": "webpack-dev-server --config ./build/webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "hyperapp", 
+    "template", 
+    "ui", 
+    "w3-css"
+  ],
+  "author": "Joseph Post <joe@jcpst.com> (http://jcpst.com)",
+  "repository": "jcpst/template-hyperapp-1",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
