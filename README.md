@@ -25,8 +25,9 @@ Sometimes I want to start hacking right away. After a few too many ~500 LOC html
 
 * `npx degit jcpst/template-hyperapp-1 my-new-project`
 * `cd my-new-project`
+* `npm i`
 * `npm start`
 
-Then hack away! 
+Then hit up port 8080 and start hacking away!
 
 Format with: `npm run format`
