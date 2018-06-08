@@ -19,7 +19,7 @@ I like no-nonsense UI libraries that are useful with as little as dropping a scr
 
 I chose w3-css for this because it's feature-packed but not too heavy, simple to use, and looks clean. I want enough in a CSS lib that I can _almost_ get away with just tossing in class names.
 
-After a few too many ~500 LOC html files with bloated script tags, I took inspiration from [minimal-react-webpack-babel-setup](https://github.com/rwieruch/minimal-react-webpack-babel-setup) and made a basic build setup, with a few tweaks for prod builds.
+Sometimes I want to start hacking right away. After a few too many ~500 LOC html files with bloated script tags, I took inspiration from [minimal-react-webpack-babel-setup](https://github.com/rwieruch/minimal-react-webpack-babel-setup) and made a basic build setup, with a few tweaks for prod builds.
 
 ### Usage
 
