@@ -1,19 +1,14 @@
 const path = require('path')
-const webpack = require('webpack');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const webpack = require('webpack')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
-  entry: [
-    './src/index.js'
-  ],
+  entry: ['./src/index.js'],
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader"
-        ]
+        use: [MiniCssExtractPlugin.loader, 'css-loader']
       },
       {
         test: /\.(js|jsx)$/,
@@ -25,15 +20,15 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname, '..', '/dist'),
-    publicPath: '/',
+    publicPath: '/'
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css"
+      filename: '[name].css',
+      chunkFilename: '[id].css'
     })
   ],
   resolve: {
     extensions: ['*', '.js', '.jsx']
   }
-};
+}
