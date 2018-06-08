@@ -23,7 +23,7 @@ After a few too many ~500 LOC html files with bloated script tags, I took inspir
 
 ### Usage
 
-* `npx degit jcpst/hyperapp-webpack my-new-project`
+* `npx degit jcpst/template-hyperapp-1 my-new-project`
 * `cd my-new-project`
 * `npm start`
 
