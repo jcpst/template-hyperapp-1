@@ -1,4 +1,4 @@
-import css from 'w3-css'
+import 'w3-css'
 import { app } from 'hyperapp'
 
 import state from './state'
