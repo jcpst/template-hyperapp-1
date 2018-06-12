@@ -31,3 +31,17 @@ Sometimes I want to start hacking right away. After a few too many ~500 LOC html
 Then hit up port 8080 and start hacking away!
 
 Format with: `npm run format`
+
+### Webstorm Setup
+
+All of the following happens in the settings window.
+
+* Go to _Languages & Frameworks -> JavaScript_
+* Set **JavaScript language version** to **React JSX**
+* Go to _Editor -> Inspections_...
+    * Go to _JavaScript -> General -> Missing React import with JSX_.
+    * Change the **Namespace** value from **React** to **h**
+    * Go to _HTML -> Unknown HTML tag attribute_
+    * Check **Custom HTML tag attributes**
+    * add `class,onclick,oncreate,onupdate,onremove,ondestroy`
+
