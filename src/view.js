@@ -6,5 +6,6 @@ export default (state, actions) => (
     <h1>{state.count}</h1>
     <Button action={() => actions.down(1)}>-</Button>
     <Button action={() => actions.up(1)}>+</Button>
+    <a href="https://github.com/jcpst/template-hyperapp-1/">url for this template</a>
   </Container>
 )

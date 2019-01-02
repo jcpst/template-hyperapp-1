@@ -4,14 +4,15 @@
   "description": "A biolerplate for hacking away at hyperapp.",
   "scripts": {
     "build": "webpack --config ./build/webpack.prod.js",
+    "deploy": "gh-pages -d dist",
     "format": "prettier --write --no-semi --single-quote \"{src,build}/**/*.js\"",
     "start": "webpack-dev-server --config ./build/webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "hyperapp", 
-    "template", 
-    "ui", 
+    "hyperapp",
+    "template",
+    "ui",
     "w3-css"
   ],
   "author": "Joseph Post <joe@jcpst.com> (http://jcpst.com)",
@@ -23,6 +24,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^0.28.11",
+    "gh-pages": "^2.0.1",
     "glob": "^7.1.2",
     "mini-css-extract-plugin": "^0.4.0",
     "optimize-css-assets-webpack-plugin": "^4.0.2",
@@ -33,7 +35,7 @@
     "uglifyjs-webpack-plugin": "^1.2.5",
     "webpack": "^4.11.1",
     "webpack-cli": "^3.0.3",
-    "webpack-dev-server": "^3.1.4",
+    "webpack-dev-server": "^3.1.14",
     "webpack-merge": "^4.1.2"
   },
   "dependencies": {

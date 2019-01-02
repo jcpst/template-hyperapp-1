@@ -1,17 +1,21 @@
 ### About
 
-This is a boilerplace that uses:
+A SPA boilerplate. Uses:
 
-* [hyperapp](https://github.com/hyperapp/hyperapp)
-* [w3-css](https://www.w3schools.com/w3css/default.asp)
+* [hyperapp](https://github.com/hyperapp/hyperapp) - For DOM manipulation and application state.
+* [w3-css](https://www.w3schools.com/w3css/default.asp) - For styling
+* [babel](https://github.com/babel/babel) - For ES5 compatibility
+* [webpack](https://github.com/webpack/webpack) - For build configuration
+* [prettier](https://github.com/prettier/prettier) - For linting
 
 Features include:
 
 * hot-reloading dev server
-* production build with
+* production build with:
     * uglify
     * removal of unused CSS
 * auto-formatting
+* gh-pages deployment (example: [this template](https://jcpst.github.io/template-hyperapp-1/))
 
 ### Why
 
